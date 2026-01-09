@@ -25,12 +25,12 @@ local tab = w:DrawTab({
 	Icon = "file"
 })
 
-tab:AddSection({
+local borabill = tab:AddSection({
 	Name = "Aimbot",
 	Position = "left",
 })
 
-tab:AddToggle({
+borabill:AddToggle({
 	Name = "Aimbot passa fome",
 	Default = false,
 	Callback = function(v)
